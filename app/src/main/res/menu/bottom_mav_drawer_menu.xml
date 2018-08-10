@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="new Feed"
+        android:id="@+id/newFeed"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/rss_feed_reader_logo"/>
+    <item android:title="Friend"
+        android:id="@+id/friend"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/add_friend"/>
+    <item android:title="Notification"
+        android:id="@+id/notification"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ring"/>
+    <item android:title="Account"
+        android:id="@+id/account"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/login"/>
+</menu>
